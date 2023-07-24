@@ -1,0 +1,250 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('assets/bodybg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    caret-color: aliceblue;
+    /* background: #4CA1AF; 
+    background: -webkit-linear-gradient(to right, #C4E0E5, #4CA1AF);  
+    background: linear-gradient(to right, #C4E0E5, #4CA1AF);  */
+
+}
+
+.navbar {
+
+    background: #4CA1AF;
+    background: -webkit-linear-gradient(to right, #C4E0E5, #4CA1AF);
+    background: linear-gradient(to right, #C4E0E5, #4CA1AF);
+    /* background: url('assets/wallpaperflare.com_wallpaper (6).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #C4E0E5; */
+
+}
+
+.nav-logo {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    /* margin-top: 10px; */
+    /* border: 2px solid rgb(255, 255, 255); */
+}
+
+.navbar-d-color {
+
+    background: #4CA1AF;
+    background: -webkit-linear-gradient(to right, #C4E0E5, #4CA1AF);
+    background: linear-gradient(to right, #C4E0E5, #4CA1AF);
+}
+
+.dropdown-item {
+    color: rgb(0, 0, 0);
+}
+
+.nav-ul {
+    margin-left: 8%;
+    font-size: 19px;
+}
+
+.tracking-in-expand {
+    -webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+    margin-top: 60%;
+}
+.welcome{
+    font-size: 18px;
+    /* margin-top: -30px; */
+    font-family: 'Raleway', sans-serif;
+}
+.text-info {
+    margin-top: 13%;
+    text-align: center;
+    font-size: 53px;
+    /* font-family: 'Playfair Display', serif; */
+}
+
+.animation-container {
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    font-size: 48px;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.animation-text {
+    /* position: absolute; */
+    left: 0;
+    top: 0;
+    color: black;
+    white-space: nowrap;
+    animation: expandAnimation 2s linear forwards;
+    background: #808080;
+    background: linear-gradient(to right, #808080 0%, #3FADA8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+
+}
+
+@keyframes expandAnimation {
+    from {
+        letter-spacing: -0.5em;
+        opacity: 0;
+        /* color: black; */
+    }
+
+    to {
+        letter-spacing: normal;
+        opacity: 1;
+        color: black;
+    }
+}
+
+.main-b-logo {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    border: 2px solid rgb(198, 230, 195);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+svg {
+    font-family: "Russo One", sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+svg text {
+    animation: stroke 5s infinite alternate;
+    stroke-width: 0.6;
+    /* stroke: #EBFF3B; */
+    background: #00416A;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E4E5E6, #00416A);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E4E5E6, #00416A);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    font-size: 100px;
+}
+
+@keyframes stroke {
+    0% {
+        fill: rgba(226, 219, 0, 0);
+        stroke: rgba(235, 255, 59, 1);
+        stroke-dashoffset: 25%;
+        stroke-dasharray: 0 50%;
+        stroke-width: 2;
+    }
+
+    70% {
+        fill: rgba(226, 219, 0, 0);
+        stroke: rgba(235, 255, 59, 1);
+    }
+
+    80% {
+        fill: rgba(226, 219, 0, 0);
+        stroke: rgba(235, 255, 59, 1);
+        stroke-width: 3;
+    }
+
+    100% {
+        fill: rgb(139, 226, 0);
+        stroke: rgba(235, 255, 59, 0);
+        stroke-dashoffset: -25%;
+        stroke-dasharray: 50% 0;
+        stroke-width: 0;
+    }
+}
+.svg-class{
+    width: 900px;
+}
+.wrapper {
+    background-color: transparent;
+    width: 865px;
+}
+.footer-text{
+    text-align: center;
+    margin-top: 10%;
+}
+.modal-body, .modal-header{
+    background: #4CA1AF;
+    background: -webkit-linear-gradient(to right, #C4E0E5, #4CA1AF);
+    background: linear-gradient(to right, #C4E0E5, #4CA1AF);
+}
+
+
+/* This is Media Queries */
+@media (max-width: 393px) {
+    .wrapper {
+        width: 1990px;
+    }
+    svg text {
+        font-size: 30px;
+    }
+    .svg-class{
+        width: 900px;
+    }
+    @keyframes stroke {
+        0% {
+            fill: rgba(226, 219, 0, 0);
+            stroke: rgba(235, 255, 59, 1);
+            stroke-dashoffset: 25%;
+            stroke-dasharray: 0 50%;
+            stroke-width: 1;
+        }
+    
+        70% {
+            fill: rgba(226, 219, 0, 0);
+            stroke: rgba(235, 255, 59, 1);
+        }
+    
+        80% {
+            fill: rgba(226, 219, 0, 0);
+            stroke: rgba(235, 255, 59, 1);
+            stroke-width: 2;
+        }
+    
+        100% {
+            fill: rgb(139, 226, 0);
+            stroke: rgba(235, 255, 59, 0);
+            stroke-dashoffset: -25%;
+            stroke-dasharray: 50% 0;
+            stroke-width: 0;
+        }
+  }
+  .footer-text{
+    text-align: center;
+    margin-top: 40%;
+}
+.my-3{
+    margin-top: 10px;
+}
+.lead{
+    margin-top: 60px;
+}
+body {
+    background: url('assets/bodybg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 140%;
+    caret-color: aliceblue;
+    /* background: #4CA1AF; 
+    background: -webkit-linear-gradient(to right, #C4E0E5, #4CA1AF);  
+    background: linear-gradient(to right, #C4E0E5, #4CA1AF);  */
+
+}
+}

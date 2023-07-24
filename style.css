@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #4CA1AF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #C4E0E5, #4CA1AF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C4E0E5, #4CA1AF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}    
+
+.navbar {
+    background: #4CA1AF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #C4E0E5, #4CA1AF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C4E0E5, #4CA1AF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+    
+}
+
+.nav-logo {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    /* border: 2px solid rgb(255, 255, 255); */
+}
+.navbar-d-color{
+    transition: 0.5s;
+    background: #4CA1AF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #C4E0E5, #4CA1AF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #C4E0E5, #4CA1AF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+}
+.nav-ul {
+    margin-left: 20%;
+    font-size: 19px;
+}
+
+.h2 {
+    color: red;
+}
+/* .footer{
+    background: #4CA1AF;
+    background: -webkit-linear-gradient(to right, #6db2be, #1e717e);
+    background: linear-gradient(to right, #6db2be, #1e717e);
+} */
+.modal-body, .modal-header{
+    background: #4CA1AF;
+    background: -webkit-linear-gradient(to right, #C4E0E5, #4CA1AF);
+    background: linear-gradient(to right, #C4E0E5, #4CA1AF);
+}
+/* This is Contact me page styling  */
+.contact-me{
+    text-align: center;
+}
+.contact-send-btn:hover{
+    border: 1px solid blue;
+    /* border-color: blue;   */
+    background-color: transparent;
+}
+/* This is About me page styling */
+.about-me-container{
+    background: #0cebeb;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.about-me-img{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    border: 2px solid rgb(1, 78, 46);
+    padding: 3px;
+}
+/* This is CV Section styling area */
+.CV{
+    height: 700px;
+    width: 1200px;
+}
+/* media queries */
+@media (max-width: 393px) {
+    .CV{
+        height: 200px;
+        width: 100%;
+    }
+}

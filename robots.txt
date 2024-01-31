@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /gallery/
+Disallow: /cv/
+Disallow: /aboutme/
+Disallow: /contact/
+Disallow: /info/
